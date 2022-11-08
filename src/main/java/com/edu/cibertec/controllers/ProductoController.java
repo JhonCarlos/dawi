@@ -29,7 +29,7 @@ public class ProductoController {
 		return "productos";
 	}
 	
-	
+	//se modifico
 	
 	@GetMapping("/nuevoProductoForm")
 	public String nuevoProductoForm(Model modelo)
@@ -41,7 +41,7 @@ public class ProductoController {
 		return "nuevo_producto";
 		
 		
-	}
+	}			
 	
 	
 	@PostMapping("/guardarProducto")
